@@ -5,5 +5,8 @@ $().ready(function() {
 
     $("button").click(function() {
         $("p").css("color", "red");
+        $("input").val("New Value");
     });
+
+    $("label").text("THE INPUT CONTROL IS NEXT:");
 });
